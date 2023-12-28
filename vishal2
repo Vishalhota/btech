@@ -204,6 +204,21 @@ int main() {
 
     return 0;
 }
-//
+//num1 num1
+#include <stdio.h>
+
+void my_fun();
+
+int main() {
+    int num1 = 5;
+    printf("%d\n", num1);
+    my_fun();
+    return 0;
+}
+
+void my_fun() {
+    int num1 = 100;
+    printf("%d\n", num1);
+}
 
 
