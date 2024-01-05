@@ -285,3 +285,36 @@ return a+b;
 }
 //without arg and with return 
 
+// Online C compiler to run C program online
+#include <stdio.h>
+int swap(int *a,int *b){
+    int temp=*a;
+    *a=*b;
+    *b=temp;
+}
+int main() {
+    // Write C code here
+    int a,b;
+    scanf("%d%d",&a,&b);
+    swap(&a,&b);
+printf("%d%d",a,b);
+    return 0;
+}
+// call by reference 
+
+// Online C compiler to run C program online
+#include <stdio.h>
+void swap(int a,int b){
+    int temp;
+    temp=a;
+    a=b;
+    b=temp;
+    printf("%d %d\n",a,b);
+}
+int main() {
+    int a,b;
+    scanf("%d%d",&a,&b);
+    swap(a,b);
+printf("%d %d\n",a,b);
+}
+// call by value
