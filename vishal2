@@ -221,4 +221,67 @@ void my_fun() {
     printf("%d\n", num1);
 }
 
+// Online C compiler to run C program online
+#include <stdio.h>
+int sum();
+int main() {
+    //i Write C code here
+    sum();
+}
+int sum(){
+    
+
+    int a,b;
+    scanf("%d%d",&a,&b);
+printf("%d",a+b);
+}
+//without arg and return 
+
+// Online C compiler to run C program online
+#include <stdio.h>
+int sum(int a,int b){
+    return a+b;
+}
+int main() {
+    // Write C code here
+    int a,b;
+    scanf("%d%d",&a,&b);
+    int l=sum(a,b);
+    printf("%d",l);
+    return 0;
+}
+//with return and arguments
+// Online C compiler to run C program online
+#include <stdio.h>
+int sum(int ,int );
+    
+
+int main() {
+    // Write C code here
+    int a,b;
+    scanf("%d%d",&a,&b);
+    sum(a,b);
+}
+int sum(int a,int b){
+    printf("%d",a+b);
+
+}
+// with argument no return 
+
+// Online C compiler to run C program online
+#include <stdio.h>
+int sum();
+int main() {
+   int result;
+   result = sum();
+   printf("%d",result);
+}
+int sum(){
+    
+
+    int a,b;
+    scanf("%d%d",&a,&b);
+return a+b;
+}
+//without arg and with return 
 
